@@ -15,3 +15,9 @@ $('abbr[title]').one('click',function(){
 $($('li')[2]).on('click', function(){
   $(this).addClass('is-faded-out');
 }); /* to hide certain elemnet on the website when click on it, if want to delete, USE remove; can adjust transtion in html */
+
+
+var doorbell = new Audio('media/doorbell.mp3');
+$('#doorbell').on('click', function() {
+  doorbell.play();
+}) /* create video & putting var above $, it will wait for the sound to play even you click ten times */
