@@ -10,4 +10,8 @@ $('abbr[title]').one('click',function(){
   var abbr = $(this).text(;
   $(this).text(exapnsion + " (" +abbr+ ") ");
   $(this).addClass('is-exapnded');
-})  /*to file up abbr when click in the website and also in html adjust the color, text decoration in abbr; with one-show the abbr only 1; but with on, it will go forever*/
+});  /*to file up abbr when click in the website and also in html adjust the color, text decoration in abbr; with one-show the abbr only 1; but with on, it will go forever*/
+
+$($('li')[2]).on('click', function(){
+  $(this).addClass('is-faded-out');
+}); /* to hide certain elemnet on the website when click on it, if want to delete, USE remove; can adjust transtion in html */
