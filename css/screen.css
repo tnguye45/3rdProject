@@ -113,3 +113,218 @@ table {
     font-style: normal;
 
 }
+/* End font-face import */
+
+
+
+/* Begin site styles below */
+
+html {
+	background-color: #F2CCB4; /* ivory */
+	opacity: 1;/* Fully transparent */
+	font-family: 'Garamond', serif;
+	font-size: 1.125em;/* 18px / 16px = 1.125em */
+	line-height: 1.125em; /* 20.25px / 18px = 1.222em */
+	text-rendering: optimizeLegibility;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%
+
+}
+
+h1{
+	font-size: 3.5em; /* 63px / 18px = 3.5em */
+	line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
+	font-weight: bold;
+	color: #0D0906; /* LightBlack */
+	padding-bottom: 1em;
+	text-indent: 40%;
+}
+
+h2{
+ font-size: 1.5em; /* 27px / 18px = 1.5em */
+ line-height: 1em; /* 1 base lines grid */
+ font-weight: bold;
+ color: #201717; /* LightBlack */
+ padding-bottom: 1.125em; /* 20.25 px / 18 px = 1.125em */
+ padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
+}
+
+h3{
+ font-size: 1.5em; /* 27px / 18px = 1.5em */
+ line-height: 1em; /*1 base lines grid */
+ font-weight: bold;
+ color: #201717; /* LightBlack */
+ padding-bottom: 1.125em; /* 20.25 px / 18 px = 1.125em */
+ padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
+
+}
+
+
+/* Navigation Layout */
+.flexbox .navigation {
+  list-style: none;
+  margin: 0;
+
+	background: #78E78E;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content:space-around;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  color: black;
+	font-weight: bold;
+	padding: 0.611em;/* 11px / 18px = 0.611em */
+}
+
+.navigation a:hover {
+  background: #78E78E;
+}
+
+
+
+.navigation a {
+	text-align: center;
+	padding: 0.611em;
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navigation li:last-of-type a {
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Meida queries */
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around; /* Then we define how is distributed the remaining space */
+  }
+}
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+		/* Then we define the flow direction and if we allow the items to wrap
+   * Remember this is the same as: * flex-direction: row;  * flex-wrap: wrap;  */
+    padding: 0;
+  }
+
+
+
+/* Create grid for body */
+body section{
+	clear: both;
+  display: grid;
+  padding-top: 66px; /* 66 px / 18 px = 3.667em */
+	padding-left: 1.5em; /* 36px / 18px = 1.5em */
+	padding-right: 1.5em; /* 36px / 18px = 1.5em */
+}
+
+p{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+
+.footer {
+  text-align: center;
+  font-size: 0.9em; /* 18 / 20 = 0.9em */
+}
+
+
+/* Responsive Images */
+img {
+	width: 100%;
+	max-width: 100%;
+	display: block;
+	text-align: center;
+}
+
+/*.cssgrid img{
+	display: grid;
+	grid-template-columns: repeat(33.33% 33.33% 33.33%);
+  grid-column-gap: 1%;
+  grid-row-gap: %;
+}*/
+
+#Hanoi img {
+	float: left;
+	width: 49%;
+	padding-right: 1%;
+  padding-bottom: 1%;
+}
+
+#Chicago img {
+	float: left;
+	width: 32%;
+	padding-right: 1%;
+  padding-bottom: 1%;
+}
+
+/*
+3-column gird: 600px
+175px-wide columns
+18.75px-wide gutters
+2-column module = 368.75px;
+3-column module = 562.5x;
+4-column module = 756.25px;
+4-column offset = 700px;
+*/
+
+@media screen and (min-width: 602px) {
+	.Hanoi img {
+		width: 93.4385%; /* 562.5 / 600px = 0.934385*/
+		float: left;
+	}
+
+	footer{
+		clear: both;
+	}
+}
+
+@media screen and (min-width: 602px) {
+	.Chicago img {
+		width: 93.4385%; /* 562.5 / 600px = 0.934385*/
+		float: left;
+		padding-right: 1%;
+	  padding-bottom: 1%;
+	}
+
+	footer{
+		clear: both;
+	}
+}
+
+@media screen and (min-width: 1020px) {
+	.Hanoi img {
+		width: 74.1421%; /* 756.25 / 1020px = 0.741421*/
+		float: left;
+	}
+
+	footer{
+		clear: both;
+	}
+}
+
+@media screen and (min-width: 1020px) {
+	.Chicago img {
+		width: 74.1421%; /* 756.25 / 1020px = 0.741421*/
+		float: left;
+		padding-right: 1%;
+	  padding-bottom: 1%;
+	}
+
+	footer{
+		clear: both;
+	}
+}
