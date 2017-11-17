@@ -134,7 +134,7 @@ html {
 }
 
 h1{
-	font-size: 3.5em; /* 63px / 18px = 3.5em */
+	font-size: 2.5em; /* 63px / 18px = 3.5em */
 	line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
 	font-weight: bold;
 	color: #0D0906; /* LightBlack */
