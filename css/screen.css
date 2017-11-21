@@ -120,11 +120,11 @@ table {
 /* Begin site styles below */
 
 html {
-	background-color: #F2CCB4; /* ivory */
+	background-color: #d3d3d3; /* lightgrey */
 	opacity: 1;/* Fully transparent */
 	font-family: 'Garamond', serif;
 	font-size: 1.125em;/* 18px / 16px = 1.125em */
-	line-height: 1.125em; /* 20.25px / 18px = 1.222em */
+	line-height: 1.222em; /* 20.25px / 18px = 1.222em */
 	text-rendering: optimizeLegibility;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -139,33 +139,24 @@ h1{
 	font-weight: bold;
 	color: #0D0906; /* LightBlack */
 	padding-bottom: 1em;
-	text-indent: 40%;
+	text-indent: 20%;
 }
 
-h2{
- font-size: 1.5em; /* 27px / 18px = 1.5em */
- line-height: 1em; /* 1 base lines grid */
- font-weight: bold;
- color: #201717; /* LightBlack */
- padding-bottom: 1.125em; /* 20.25 px / 18 px = 1.125em */
- padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
+h2, h3, h4 {
+	font-size: 2.5em; /* 63px / 18px = 3.5em */
+  line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
+  font-weight: bold;
+	color: #0D0906; /* LightBlack */
+	padding-bottom: 1.222em; /* 20.25 px / 18 px = 1.222em */
+	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
 }
 
-h3{
- font-size: 1.5em; /* 27px / 18px = 1.5em */
- line-height: 1em; /*1 base lines grid */
- font-weight: bold;
- color: #201717; /* LightBlack */
- padding-bottom: 1.125em; /* 20.25 px / 18 px = 1.125em */
- padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
-
-}
 
 
 /* Navigation Layout */
 .flexbox .navigation {
   list-style: none;
-  margin: 0;
+  text-indent: 50%;
 
 	background: #78E78E;
 
@@ -174,7 +165,6 @@ h3{
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-
   -webkit-flex-flow: row wrap;
   justify-content:space-around;
 }
@@ -239,6 +229,8 @@ p{
 .footer {
   text-align: center;
   font-size: 0.9em; /* 18 / 20 = 0.9em */
+	padding-top: 2em;
+
 }
 
 
@@ -257,14 +249,14 @@ img {
   grid-row-gap: %;
 }*/
 
-#Hanoi img {
+#hanoi img {
 	float: left;
 	width: 49%;
 	padding-right: 1%;
   padding-bottom: 1%;
 }
 
-#Chicago img {
+#chicago img {
 	float: left;
 	width: 32%;
 	padding-right: 1%;
@@ -282,7 +274,7 @@ img {
 */
 
 @media screen and (min-width: 602px) {
-	.Hanoi img {
+	.hanoi img {
 		width: 93.4385%; /* 562.5 / 600px = 0.934385*/
 		float: left;
 	}
@@ -293,7 +285,7 @@ img {
 }
 
 @media screen and (min-width: 602px) {
-	.Chicago img {
+	.chicago img {
 		width: 93.4385%; /* 562.5 / 600px = 0.934385*/
 		float: left;
 		padding-right: 1%;
@@ -306,7 +298,7 @@ img {
 }
 
 @media screen and (min-width: 1020px) {
-	.Hanoi img {
+	.hanoi img {
 		width: 74.1421%; /* 756.25 / 1020px = 0.741421*/
 		float: left;
 	}
@@ -317,7 +309,7 @@ img {
 }
 
 @media screen and (min-width: 1020px) {
-	.Chicago img {
+	.chicago img {
 		width: 74.1421%; /* 756.25 / 1020px = 0.741421*/
 		float: left;
 		padding-right: 1%;
