@@ -119,7 +119,7 @@ table {
 
 /* Begin site styles below */
 
-html {
+#content {
 	background-color: #d3d3d3; /* lightgrey */
 	opacity: 1;/* Fully transparent */
 	font-family: 'Garamond', serif;
@@ -212,7 +212,7 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 
 
 /* Create grid for body */
-body section{
+.content{
 	clear: both;
   display: grid;
   padding-top: 66px; /* 66 px / 18 px = 3.667em */
