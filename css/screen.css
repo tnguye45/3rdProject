@@ -144,7 +144,7 @@ body {
 /*HTIML site style */
 
 h1{
-	font-size: 2.5em; /* 63px / 18px = 3.5em */
+	font-size: 3.5em; /* 63px / 18px = 3.5em */
 	line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
 	font-weight: bold;
 	color: #0D0906; /* LightBlack */
@@ -160,6 +160,15 @@ h2, #about {
 	padding-bottom: 1.222em; /* 20.25 px / 18 px = 1.222em */
 	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
 }
+
+h2, p {
+	font-size: 1.5em; /* 63px / 18px = 1.5em */
+  line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
+	color: #0D0906; /* LightBlack */
+	padding-bottom: 1.222em; /* 20.25 px / 18 px = 1.222em */
+	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
+}
+
 
 h2, #Hanoi {
 	font-size: 2.5em; /* 63px / 18px = 3.5em */
@@ -241,6 +250,10 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   padding-top: 66px; /* 66 px / 18 px = 3.667em */
 	padding-left: 1.5em; /* 36px / 18px = 1.5em */
 	padding-right: 1.5em; /* 36px / 18px = 1.5em */
+	font-size: 1.5em;
+	background-color: #d3d3d3; /* lightgrey */
+	opacity: 1;/* Fully transparent */
+	font-family: 'Garamond', serif;
 }
 
 p{
@@ -273,7 +286,7 @@ img {
 }*/
 
 #fourthyear img{
-	float:left;
+	float:left;1
 	width: 48%;
 	padding-left: 2%;
 	padding-right: 2%;
