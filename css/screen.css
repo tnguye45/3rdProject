@@ -129,15 +129,15 @@ html {
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
-	text-size-adjust: 100%
+	text-size-adjust: 100%;
 
 }
 
 body {
-	margin-left: 2%;
-	margin-right: 2%;
-	margin-top: 2%;
-	margin-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 5%;
+	padding-bottom: 2%;
 }
 
 
@@ -190,9 +190,9 @@ h3, #Chicago {
 
 
 /* Navigation Layout */
-.flexbox .navigation {
+ .navigation {
   list-style: none;
-  text-indent: 50%;
+  margin: 0;
 	background: #78E78E;
   display: -webkit-box;
   display: -moz-box;
@@ -200,7 +200,7 @@ h3, #Chicago {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
-  justify-content:space-around;
+  justify-content:flex-end;
 }
 
 .navigation a {
@@ -219,12 +219,13 @@ h3, #Chicago {
 	text-align: center;
 	padding: 0.611em;
 	border-top: 1px solid rgba(255, 255, 255, 0.3);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .navigation li:last-of-type a {
 border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 
 /* Meida queries */
 @media all and (max-width: 800px) {
