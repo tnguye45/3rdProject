@@ -143,16 +143,25 @@ body {
 
 /*HTIML site style */
 
-h1{
+h1, #header{
 	font-size: 3.5em; /* 63px / 18px = 3.5em */
 	line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
 	font-weight: bold;
 	color: #0D0906; /* LightBlack */
 	padding-bottom: 1em;
-	text-indent: 20%;
+	text-indent: center;
 }
 
-h2, #about {
+h1, #Bridging {
+	font-size: 2.5em; /* 63px / 18px = 3.5em */
+	line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
+	font-weight: bold;
+	color: #0D0906; /* LightBlack */
+	padding-bottom: 1em;
+	text-indent: center;
+}
+
+h2 {
 	font-size: 2.5em; /* 63px / 18px = 3.5em */
   line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
   font-weight: bold;
@@ -162,7 +171,7 @@ h2, #about {
 }
 
 h2, p {
-	font-size: 1.5em; /* 63px / 18px = 1.5em */
+	font-size: 1em; /* 63px / 18px = 1.5em */
   line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
 	color: #0D0906; /* LightBlack */
 	padding-bottom: 1.222em; /* 20.25 px / 18 px = 1.222em */
