@@ -124,7 +124,7 @@ html {
 	opacity: 1;/* Fully transparent */
 	font-family: 'Garamond', serif;
 	font-size: 1.125em;/* 18px / 16px = 1.125em */
-	line-height: 1.222em; /* 20.25px / 18px = 1.222em */
+	line-height: 1.125em; /* 20.25px / 18px = 1.125em */
 	text-rendering: optimizeLegibility;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -145,7 +145,7 @@ body {
 
 h1, #header{
 	font-size: 3.5em; /* 63px / 18px = 3.5em */
-	line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
+	line-height: 1.25em; /* 67.5px / 54 px = 1.25 em; 3 base lines grid */
 	font-weight: bold;
 	color: #0D0906; /* LightBlack */
 	padding-bottom: 1em;
@@ -154,7 +154,7 @@ h1, #header{
 
 h1, #Bridging {
 	font-size: 2.5em; /* 63px / 18px = 3.5em */
-	line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
+	line-height: 1.25em; /* 67.5px / 54 px = 1.25 em; 3 base lines grid */
 	font-weight: bold;
 	color: #0D0906; /* LightBlack */
 	padding-bottom: 1em;
@@ -162,38 +162,38 @@ h1, #Bridging {
 }
 
 h2 {
-	font-size: 2.5em; /* 63px / 18px = 3.5em */
-  line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
+	font-size: 2.5em; /* 45px / 18px = 2.5em */
+  line-height: 1.25em; /* 67.5px / 54 px = 1.25 em; 3 base lines grid */
   font-weight: bold;
 	color: #0D0906; /* LightBlack */
-	padding-bottom: 1.222em; /* 20.25 px / 18 px = 1.222em */
+	padding-bottom: 1.125em; /* 20.25 px / 18 px = 1.125em */
 	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
 }
 
 h2, p {
-	font-size: 1em; /* 63px / 18px = 1.5em */
-  line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
+	font-size: 1.125em; /* 18px / 16px = 1.125em */
+  line-height: 1.125em; /* 20.25px / 18px = 1.125em */
 	color: #0D0906; /* LightBlack */
-	padding-bottom: 1.222em; /* 20.25 px / 18 px = 1.222em */
+	padding-bottom: 1.125em; /*20.25 px / 18 px = 1.125em */
 	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
 }
 
 
 h2, #Hanoi {
-	font-size: 2.5em; /* 63px / 18px = 3.5em */
-  line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
+	font-size: 2.5em; /* 45px / 18px = 2.5em */
+  line-height: 1.25em; /* 67.5px / 54 px = 1.25 em; 3 base lines grid */
   font-weight: bold;
 	color: #0D0906; /* LightBlack */
-	padding-bottom: 1.222em; /* 20.25 px / 18 px = 1.222em */
+	padding-bottom: 1.125em; /* 20.25 px / 18 px = 1.125em */
 	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
 }
 
 h3, #Chicago {
-	font-size: 2.5em; /* 63px / 18px = 3.5em */
-  line-height: 1.319em; /* 67.5px / 54 px = 1.319 em; 3 base lines grid */
+	font-size: 2.5em; /* 45px / 18px = 2.5em */
+  line-height: 1.25em; /* 67.5px / 54 px = 1.25 em; 3 base lines grid */
   font-weight: bold;
 	color: #0D0906; /* LightBlack */
-	padding-bottom: 1.222em; /* 20.25 px / 18 px = 1.222em */
+	padding-bottom: 1.125em; /* 20.25 px / 18 px = 1.125em */
 	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
 }
 
