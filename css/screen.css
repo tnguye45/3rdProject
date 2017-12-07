@@ -206,7 +206,7 @@ h3, #Chicago {
 
 
 /* Navigation Layout */
- .navigation {
+ #navigation {
   list-style: none;
   margin: 0;
 	background: lightsteelblue;
@@ -219,7 +219,7 @@ h3, #Chicago {
   justify-content:flex-end;
 }
 
-.navigation a {
+#navigation a {
   text-decoration: none;
   display: block;
   color: black;
@@ -227,20 +227,21 @@ h3, #Chicago {
 	padding: 0.611em;/* 11px / 18px = 0.611em */
 }
 
-.navigation a:hover {
+#navigation a:hover {
   background: #b0c4de;
 }
 
-.navigation a {
+#navigation a {
 	text-align: center;
 	padding: 0.611em; /* 11px/18px = 0.611em */
 	border-top: 1px solid rgba(255, 255, 255, 0.3);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.navigation li:last-of-type a {
+#navigation li:last-of-type a {
 border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+/* End navigation layout */
 
 
 /* Meida queries for navigation*/
@@ -250,7 +251,7 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
 @media all and (max-width: 600px) {
-  .navigation {
+  #navigation {
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
     padding: 0;
@@ -258,24 +259,24 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3);
    * Remember this is the same as: * flex-direction: row;  * flex-wrap: wrap;  */
   }
 
-	.navigation a{
+	#navigation a{
 		text-align: center;
 		padding:0.611em; /* 11px/18px = 0.611em */
 		border-top: 1px solid rgba(255, 0, 0, 0.3);
 		border-bottom: 1px solid rgba(255, 0, 0, 0.1);
 	}
 
-	.navigation li:last-of-type a {
+	#navigation li:last-of-type a {
 		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 	}
 }
-
+/* End media queries for navigation */
 
 
 
 
 /* Create grid for body */
-.content{
+#content{
 	clear: both;
   display: grid;
   padding-top: 66px; /* 66 px / 18 px = 3.667em */
@@ -291,7 +292,7 @@ p{
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 }
-
+/* End grid for all pages */
 
 .footer {
   text-align: center;
