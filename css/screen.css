@@ -156,30 +156,21 @@ h1, #header{
 	font-weight: bold;
 	color: #0D0906; /* LightBlack */
 	padding-bottom: 1em;
-	text-indent: center;
+	text-indent: left;
 }
 
-h1, #Bridging {
-	font-size: 2.5em; /* 63px / 18px = 3.5em */
+h2, #Bridging {
+	font-size: 2em; /* 36px / 18px = 2em */
 	line-height: 1.25em; /* 67.5px / 54 px = 1.25 em; 3 base lines grid */
 	font-weight: bold;
 	color: #0D0906; /* LightBlack */
 	padding-bottom: 1em;
-	text-indent: center;
+	text-indent: right;
 }
 
-h2 {
-	font-size: 2.5em; /* 45px / 18px = 2.5em */
-  line-height: 1.25em; /* 67.5px / 54 px = 1.25 em; 3 base lines grid */
-  font-weight: bold;
-	color: #0D0906; /* LightBlack */
-	padding-bottom: 1.125em; /* 20.25 px / 18 px = 1.125em */
-	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
-}
-
-h2, p {
+h2, #p {
 	font-size: 1.125em; /* 18px / 16px = 1.125em */
-  line-height: 1.125em; /* 20.25px / 18px = 1.125em */
+  line-height: 1.25em; /* 22.5px / 18px = 1.25em */
 	color: #0D0906; /* LightBlack */
 	padding-bottom: 1.125em; /*20.25 px / 18 px = 1.125em */
 	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
