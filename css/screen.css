@@ -217,6 +217,7 @@ h3, #Chicago {
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content:flex-end;
+	flex-direction: row;
 }
 
 #navigation a {
@@ -247,13 +248,14 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 /* Meida queries for navigation*/
 @media all and (max-width: 800px) {
   .navigation {
-    justify-content: flex-end;; /* Then we define how is distributed the remaining space */
+    justify-content: flex-end; /* Then we define how is distributed the remaining space */
+		flex-direction: row;
   }
 }
 @media all and (max-width: 600px) {
   #navigation {
-    -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
     padding: 0;
 		/* Then we define the flow direction and if we allow the items to wrap
    * Remember this is the same as: * flex-direction: row;  * flex-wrap: wrap;  */
