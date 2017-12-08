@@ -167,6 +167,10 @@ h2, h3 {
 	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
 }
 
+p {
+	padding-bottom: 1.125em; /* 20.25 px / 18 px = 1.125em */
+	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
+}
 
 /* Navigation Layout */
 
@@ -215,6 +219,12 @@ img {
 	max-width: 100%;
 	display: block;
 	text-align: center;
+}
+
+figcaption {
+	padding-top:0.9em;
+	padding-bottom: 1.5em;
+	font-size: 1em;
 }
 
 #fourthyear img{
