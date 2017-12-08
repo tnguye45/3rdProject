@@ -120,7 +120,7 @@ table {
 /* Begin site styles below */
 
 html {
-	background-color: #d3d3d3; /* lightgrey */
+	/* background-color: #d3d3d3; /* lightgrey */
 	opacity: 1;/* Fully transparent */
 	font-family: 'Garamond', serif;
 	font-size: 1.125em;/* 18px / 16px = 1.125em */
@@ -141,7 +141,6 @@ body {
 	padding-right: 1.5em; /* 36px / 18px = 1.5em */
 	font-size: 1.125em;/* 18px / 16px = 1.125em */
 	line-height: 1.125em; /* 20.25px / 18px = 1.125em */
-	background-color: #d3d3d3; /* lightgrey */
 	opacity: 1;/* Fully transparent */
 	font-family: 'Garamond', serif;
 }
@@ -150,7 +149,7 @@ body {
 
 /*HTIML site style */
 
-#header h1{
+h1 #header {
 	font-size: 3.5em; /* 63px / 18px = 3.5em */
 	line-height: 1.25em; /* 67.5px / 54 px = 1.25 em; 3 base lines grid */
 	font-weight: bold;
@@ -170,106 +169,85 @@ h2, h3 {
 	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
 }
 
-p {
-	font-size: 1.125em; /* 18px / 16px = 1.125em */
-  line-height: 1.25em; /* 22.5px / 18px = 1.25em */
-	color: #0D0906; /* LightBlack */
-	padding-bottom: 1.125em; /*20.25 px / 18 px = 1.125em */
-	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
-	display: block;
-}
-
-
 
 /* Navigation Layout */
- #navigation {
-  list-style: none;
-  margin: 0;
-	background: lightsteelblue;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content:flex-end;
-	flex-direction: row;
+
+#navigation {
+ position:absolute;
+ top:0;
+ left: 0;
+ margin: 0;
+ background: none;
+ width: 100%;
 }
 
 #navigation a {
-  text-decoration: none;
-  display: block;
-  color: black;
-	font-weight: bold;
-	padding: 0.611em;/* 11px / 18px = 0.611em */
+ text-decoration: none;
+ display: block;
+ color: lightslategrey;
+ font-weight: bold;
+ text-align: center;
+ padding: 0.611em;/* 11px / 18px = 0.611em */
+}
+
+#navigation li{
+ float: left;
+ width: 25%;
+
 }
 
 #navigation a:hover {
-  background: #b0c4de;
+ background: none;
 }
 
-#navigation a {
-	text-align: center;
-	padding: 0.611em; /* 11px/18px = 0.611em */
-	border-top: 1px solid rgba(255, 255, 255, 0.3);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-#navigation li:last-of-type a {
-border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
 /* End navigation layout */
 
 
 /* Meida queries for navigation*/
 @media all and (max-width: 800px) {
-  .navigation {
-    justify-content: flex-end; /* Then we define how is distributed the remaining space */
-		flex-direction: row;
-  }
+ .navigation {
+	 justify-content: flex-end; /* Then we define how is distributed the remaining space */
+	 flex-direction: row;
+ }
 }
 @media all and (max-width: 600px) {
-  #navigation {
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    padding: 0;
-		/* Then we define the flow direction and if we allow the items to wrap
-   * Remember this is the same as: * flex-direction: row;  * flex-wrap: wrap;  */
-  }
+ #navigation {
+	 -webkit-flex-flow: row wrap;
+	 flex-flow: row wrap;
+	 padding: 0;
+	 /* Then we define the flow direction and if we allow the items to wrap
+	* Remember this is the same as: * flex-direction: row;  * flex-wrap: wrap;  */
+ }
 
-	#navigation a{
-		text-align: center;
-		padding:0.611em; /* 11px/18px = 0.611em */
-		border-top: 1px solid rgba(255, 0, 0, 0.3);
-		border-bottom: 1px solid rgba(255, 0, 0, 0.1);
-	}
+ #navigation a{
+	 text-align: center;
+	 padding:0.611em; /* 11px/18px = 0.611em */
+	 border-top: 1px solid rgba(255, 0, 0, 0.3);
+	 border-bottom: 1px solid rgba(255, 0, 0, 0.1);
+ }
 
-	#navigation li:last-of-type a {
-		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	}
+ #navigation li:last-of-type a {
+	 border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+ }
 }
 /* End media queries for navigation */
+*/
 
 
 
 
 /* Create grid for body */
 #content{
-	clear: both;
-  display: grid;
-  padding-top: 66px; /* 66 px / 18 px = 3.667em */
-	padding-left: 1.5em; /* 36px / 18px = 1.5em */
-	padding-right: 1.5em; /* 36px / 18px = 1.5em */
-	font-size: 1.5em;
-	background-color: #d3d3d3; /* lightgrey */
+	padding-left: 0.611em; /* 11px/18px = 0.611em */
+	padding-right: 0.611em; /* 11px/18px = 0.611em */
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	font-size: 1.125em; /* 18px / 16px = 1.125em */
+  line-height: 1.25em; /* 22.5px / 18px = 1.25em */
 	opacity: 1;/* Fully transparent */
 	font-family: 'Garamond', serif;
 }
 
-p{
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-}
 /* End grid for all pages */
 
 .footer {
