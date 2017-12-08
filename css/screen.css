@@ -151,7 +151,7 @@ h1 {
 	font-weight: bold;
 	color: #0D0906; /* LightBlack */
 	padding-bottom: 2em;
-	text-indent: 65%;
+	text-indent: 60%;
 }
 
 
@@ -171,6 +171,13 @@ p {
 	padding-bottom: 1.125em; /* 20.25 px / 18 px = 1.125em */
 	padding-top: 1.5em; /* 27 px / 18 px = 1.5em */
 }
+
+h3 #chicago{
+	padding-bottom: 1.125em; /* 20.25 px / 18 px = 1.125em */
+	padding-top: 2em; /* 36 px / 18 px = 2em */
+	text-indent: left;
+}
+
 
 /* Navigation Layout */
 
@@ -204,6 +211,12 @@ p {
 
 /* End navigation layout */
 
+.aside {
+	text-align: center;
+  font-size: 0.9em; /* 18 / 20 = 0.9em */
+	padding-top: 2em;
+}
+
 
 .footer {
   text-align: center;
@@ -225,6 +238,7 @@ figcaption {
 	padding-top:0.9em;
 	padding-bottom: 1.5em;
 	font-size: 1em;
+	float: left;
 }
 
 #fourthyear img{
@@ -264,6 +278,10 @@ figcaption {
 		float: left;
 	}
 
+	aside{
+		clear:both;
+	}
+
 	footer{
 		clear: both;
 	}
@@ -275,6 +293,10 @@ figcaption {
 		float: left;
 		padding-right: 1%;
 	  padding-bottom: 1%;
+	}
+
+	aside{
+		clear:both;
 	}
 
 	footer{
@@ -290,6 +312,10 @@ figcaption {
 	  padding-bottom: 2%;
 	}
 
+	aside{
+		clear:both;
+	}
+
 	footer{
 		clear: both;
 	}
@@ -302,10 +328,15 @@ figcaption {
 		float: left;
 	}
 
+	aside{
+		clear:both;
+	}
+
 	footer{
 		clear: both;
 	}
 }
+
 
 @media screen and (min-width: 1020px) {
 	.chicago img {
@@ -313,6 +344,10 @@ figcaption {
 		float: left;
 		padding-right: 1%;
 	  padding-bottom: 1%;
+	}
+
+	aside{
+		clear:both;
 	}
 
 	footer{
